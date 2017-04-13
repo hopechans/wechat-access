@@ -1,0 +1,25 @@
+{
+  "name": "weixin",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.16.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.0",
+    "ejs": "~2.5.5",
+    "express": "~4.14.1",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.2"
+  },
+  "devDependencies": {
+    "crypto": "^0.0.3",
+    "jssha": "^2.2.0",
+    "node-uuid": "^1.4.8",
+    "request": "^2.81.0",
+    "wechat": "^2.1.0",
+    "wechat-api": "^1.32.0"
+  }
+}

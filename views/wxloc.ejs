@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1.0, user-scalable=no">
+    <title>第7章 7.1节 位置操作接口</title>
+    <!--依赖文件：jQuery-->
+    <script src="/javascripts/jquery.min.js"></script>
+    <!--依赖文件：微信的JSSDK源文件-->
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    <!--依赖文件：coolie-->
+    <script src="/javascripts/cookie.js"></script>
+    <!--JSSDK的环境-->
+    <script src="/javascripts/wxJSSDK.js"></script>
+    <!--引入检测API的位置服务-->
+    <script src="/javascripts/location.js"></script>
+    <style>
+        input{
+            width: 100%;
+            padding: 0.2em;
+            background-color: #5eb95e;
+            font-size: 1.4em;
+            background-image: linear-gradient(to bottom, #62c462, #57a957);
+            background-repeat: repeat-x;
+            color: #ffffff;
+            text-align: center;
+            text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+            border-radius: 0.3em;
+        }
+        #info{
+            border-left: 3px solid #03a9f4;
+            background-color: #5eb95e;
+            color: #ffffff;
+            border-radius: 0.3em;
+            text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+        }
+    </style>
+</head>
+<body>
+<h1 style="font-size: 8em">:)</h1>
+<b style="font-size: 3em">位置操作接口！</b><br /><br />
+<div id="info">
+    <p>纬度：<em  id="latitude">无</em></p>
+    <p>经度：<em id="longitude">无</em></p>
+    <p>速度：<em id="speed">无</em></p>
+    <p>位置精度：<em id="accuracy">无</em></p>
+</div>
+<input type="button" value="获取当前地理位置信息" id="getLocation" /><br /><br />
+<input type="button" value="使用微信内置地图查看位置" id="openLocation" /><br /><br />
+</body>
+</html>

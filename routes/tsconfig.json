@@ -1,0 +1,34 @@
+{
+  "button":[
+    {
+      "type":"click",
+      "name":"今日曲2",
+      "key":"V1001_TODAY_SINGER"
+    },
+    {
+      "type":"click",
+      "name":"歌手2",
+      "key":"V1001_TODAY_SINGER"
+    },
+    {
+      "name":"菜单",
+      "sub_button":[
+        {
+          "type":"view",
+          "name":"搜索",
+          "url":"http://www.soso.com/"
+        },
+        {
+          "type":"view",
+          "name":"视频3",
+          "url":"http://16y864037j.51mypc.cn/weixin/loc"
+        },
+        {
+          "type":"click",
+          "name":"赞13下我们",
+          "key":"V1001_GOOD"
+        }
+      ]
+    }
+  ]
+}
